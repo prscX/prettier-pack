@@ -1,4 +1,18 @@
 {
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Solarized Light",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.enablePreview": false,
+  "javascript.validate.enable": false,
+  "vsicons.projectDetection.autoReload": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [100],
+  "editor.cursorBlinking": "solid",
+  "editor.fontLigatures": true,
+  "local-history.daysLimit": 5, // A day number to purge local history. (0: no purge)
+  "local-history.maxDisplay": 20, // A max files to display with local history commands
+  "local-history.exclude": "{.history,.vscode,**/node_modules,typings,out}", // Files or folders not to save in local history
+  "local-history.enabled": true, // Possibillity to disabled the extension for some project
   // Place your settings in this file to overwrite the default settings
   "editor.formatOnSave": true,
   "prettier.eslintIntegration": true,
