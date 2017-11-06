@@ -11,7 +11,7 @@ It contains prepacked node modules essential for consuming Prettier in developme
 - React
 
 ## Dependencies:
-We would like to thank contributors of below below dependencies:
+I would like to thank contributors of below dependencies:
 
 - [babel-eslint](https://github.com/babel/babel-eslint)
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
