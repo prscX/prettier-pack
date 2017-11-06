@@ -26,7 +26,7 @@ We would like to thank contributors of below dependencies:
 - [lint-staged](https://github.com/okonet/lint-staged)
 - [prettier-eslint-cli](https://github.com/prettier/prettier-eslint-cli)
 
-Usage
+## Usage
 `$ npm install --save prettier-pack`
 
 ## Opening Issues
