@@ -1,5 +1,5 @@
 # prettier-pack
-Prettier + ESLint + Husky + Lint + Flow + React
+**__Prettier + ESLint + Husky + Lint + Flow + React__**
 
 It contains prepacked node modules essential for consuming Prettier in development/production environment. We have configured below node modules:
 
