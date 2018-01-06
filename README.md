@@ -1,4 +1,6 @@
-# prettier-pack
+<center><img src="https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-light.png"></center>
+
+# Prettier Pack
 
 \***\*Prettier + ESLint + Husky + Lint + Flow + React\*\***
 
