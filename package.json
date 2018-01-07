@@ -12,7 +12,8 @@
     "url": "https://github.com/prscX/prettier-pack.git"
   },
   "scripts": {
-    "postinstall": "node script.js",
+    "postinstall":
+      "node script.js && code --install-extension dbaeumer.vscode-eslint && code --install-extension esbenp.prettier-vscode",
     "format": "prettier '*.js'",
     "precommit": "lint-staged"
   },
