@@ -4,16 +4,6 @@ const path = require('path')
 let files = ['.eslintrc', '.vscode']
 
 try {
-  let extend = target => {
-    var sources = [].slice.call(arguments, 1)
-    sources.forEach(function(source) {
-      for (var prop in source) {
-        target[prop] = source[prop]
-      }
-    })
-    return target
-  }
-
   let copyFile = (src, dest) => {
     if (fs.existsSync(dest)) {
       // Merge
@@ -22,17 +12,17 @@ try {
 
       if (destData === undefined) destData = {}
 
-      let writeData = extend(srcData, destData)
-      console.log('write data : ' + writeData)
-
-      fs.writeFileSync(dest, writeData, 'utf8')
+      let writeData = Object.assign(
+        {},
+        JSON.parse(destData),
+        JSON.parse(srcData)
+      )
+      fs.writeFileSync(dest, JSON.stringify(writeData), 'utf8')
     } else {
       // Copy
       fs.openSync(dest, 'w')
 
       let srcData = fs.readFileSync(src, 'utf8')
-      console.log('src data : ' + srcData)
-
       fs.writeFileSync(dest, srcData, 'utf8')
     }
   }
