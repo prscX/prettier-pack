@@ -45,3 +45,24 @@ Contributions are welcome and are greatly appreciated! Every little bit helps, a
 ## License
 
 Prettier Pack is provided under the MIT License
+
+
+## Other Contributions
+- React Native - Spruce: [react-native-spruce](https://github.com/prscX/react-native-spruce)
+
+![Screenshots](https://github.com/willowtreeapps/spruce-ios/raw/master/imgs/extensibility-tests.gif)
+
+- React Native - App Tour Library: [react-native-taptargetview](https://github.com/prscX/react-native-taptargetview) & [react-native-material-showcase-ios](https://github.com/prscX/react-native-material-showcase-ios)
+
+![Screenshots](https://github.com/KeepSafe/TapTargetView/raw/master/.github/video.gif)
+![Screenshots](https://github.com/aromajoin/material-showcase-ios/raw/master/art/material-showcase.gif?raw=true)
+
+- React Native - Shine Button: [react-native-shine-button](https://github.com/prscX/react-native-shine-button)
+
+![Screenshots](https://raw.githubusercontent.com/ChadCSong/ShineButton/master/demo_shine_others.gif)
+
+
+- Visual Code Essential Plugins: [vs-essential-plugins](https://github.com/prscX/vs-essential-plugins)
+
+![Screenshots](https://pbs.twimg.com/profile_images/922911523328081920/jEKFRPKV_400x400.jpg)
+
