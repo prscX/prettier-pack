@@ -62,14 +62,16 @@ Prettier Pack is provided under the MIT License
 ![Screenshots](https://raw.githubusercontent.com/ChadCSong/ShineButton/master/demo_shine_others.gif)
 
 - React Native Iconic: [react-native-iconic](https://github.com/prscX/react-native-iconic)
-
 ![Screenshots](https://camo.githubusercontent.com/b18993cbfe91de8abdc0019dc9a6cd44707eec21/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3338313133332f73637265656e73686f74732f313639363538302f766266706f70666c6174627574746f6e332e676966)
 
-- React Native Download Button
+- React Native Download Button: [react-native-download-button](https://github.com/prscX/react-native-download-button)
 
 ![](https://github.com/fenjuly/ArrowDownloadButton/raw/master/screenshots/arrowdownloadbutton.gif)
+
+- React Native Siri Wave View: [react-native-siri-wave-view](https://github.com/prscX/react-native-siri-wave-view)
+
+![](https://cdn.dribbble.com/users/341264/screenshots/2203511/wave.gif)
 
 - Visual Code Essential Plugins: [vs-essential-plugins](https://github.com/prscX/vs-essential-plugins)
 
 ![Screenshots](https://pbs.twimg.com/profile_images/922911523328081920/jEKFRPKV_400x400.jpg)
-
