@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-light.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-light.png" wdith="600" height="300" ></p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/prettier-pack"><img src="http://img.shields.io/npm/v/prettier-pack.svg?style=flat" /></a>
