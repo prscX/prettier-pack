@@ -1,6 +1,6 @@
 {
   "name": "prettier-pack",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Prettier Pack",
   "author": {
     "name": "Pranav Raj Singh Chauhan",
@@ -36,7 +36,8 @@
     "flow-webpack-plugin": "1.2.0",
     "husky": "0.14.3",
     "lint-staged": "7.2.0",
-    "prettier-eslint-cli": "4.7.1"
+    "prettier-eslint-cli": "4.7.1",
+    "strip-json-comments": "2.0.1"
   },
   "contributors": [],
   "license": "Apache License"

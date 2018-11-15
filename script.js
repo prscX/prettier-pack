@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const stripJsonComments = require('strip-json-comments')
 
 let files = ['.eslintrc', '.vscode']
 
@@ -11,6 +12,9 @@ try {
       let destData = fs.readFileSync(dest, 'utf8')
 
       if (destData === undefined) destData = {}
+
+      if (srcData !== undefined) srcData = stripJsonComments(srcData)
+      if (destData !== undefined) destData = stripJsonComments(destData)
 
       let writeData = Object.assign(
         {},
