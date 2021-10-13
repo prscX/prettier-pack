@@ -1,11 +1,12 @@
 {
   "name": "prettier-pack",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Prettier Pack",
   "author": {
     "name": "Pranav Raj Singh Chauhan",
     "email": "pranavchauhan01@gmail.com"
   },
+  "type": "module",
   "homepage": "https://github.com/prscX/prettier-pack",
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
-const fs = require('fs')
-const path = require('path')
-const stripJsonComments = require('strip-json-comments')
+import fs from 'fs'
+import path from 'path'
+import stripJsonComments from 'strip-json-comments'
 
 let files = ['.eslintrc', '.vscode']
 
@@ -32,6 +32,7 @@ try {
   }
 
   files.forEach(file => {
+    let __dirname = path.resolve()
     let srcPath = `${__dirname}/${file}`
     let destPath = path.normalize(`${__dirname}/../../${file}`)
     let stat = fs.statSync(srcPath)
