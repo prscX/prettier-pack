@@ -1,6 +1,6 @@
 {
   "name": "prettier-pack",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Prettier Pack",
   "author": {
     "name": "Pranav Raj Singh Chauhan",
@@ -27,16 +27,16 @@
   },
   "dependencies": {
     "babel-eslint": "10.1.0",
-    "eslint-config-prettier": "8.3.0",
+    "eslint-config-prettier": "8.5.0",
     "eslint-plugin-babel": "5.3.1",
-    "eslint-plugin-flowtype": "6.1.0",
-    "eslint-plugin-import": "2.25.1",
+    "eslint-plugin-flowtype": "8.0.3",
+    "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.26.1",
-    "flow-bin": "0.161.0",
+    "eslint-plugin-react": "7.29.4",
+    "flow-bin": "0.175.1",
     "flow-webpack-plugin": "1.2.0",
-    "husky": "7.0.2",
-    "lint-staged": "11.2.3",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.7",
     "prettier-eslint-cli": "5.0.1",
     "strip-json-comments": "4.0.0"
   },
